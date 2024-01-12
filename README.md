@@ -1,5 +1,7 @@
 # Turborepo starter
 
+https://docs.docker.com/compose/gettingstarted/
+
 This is an official starter Turborepo.
 
 ## Using this example
