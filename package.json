@@ -2,14 +2,20 @@
   "name": "virtual",
   "private": true,
   "scripts": {
-    "build": "turbo build",
-    "dev": "turbo dev",
-    "lint": "turbo lint",
-    "format": "prettier --write \"**/*.{ts,tsx,md}\""
+    "postinstall": "./node_modules/.bin/husky install",
+    "build": "./node_modules/.bin/turbo build",
+    "dev": "./node_modules/.bin/turbo dev",
+    "lint": "./node_modules/.bin/turbo lint",
+    "clean": "./node_modules/.bin/turbo clean && rm -rf node_modules",
+    "format": "./node_modules/.bin/prettier --write \"**/*.{ts,tsx,md}\""
   },
   "devDependencies": {
+    "@commitlint/cli": "^18.4.4",
+    "@commitlint/config-conventional": "^18.4.4",
+    "@commitlint/prompt-cli": "^18.4.4",
     "@repo/eslint-config": "*",
     "@repo/typescript-config": "*",
+    "husky": "^8.0.3",
     "prettier": "^3.1.1",
     "turbo": "latest"
   },

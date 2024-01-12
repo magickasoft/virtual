@@ -1,6 +1,10 @@
 {
   "$schema": "https://turbo.build/schema.json",
+  "remoteCache": {
+    "signature": true
+  },
   "globalDependencies": ["**/.env.*local"],
+  "globalEnv": ["NODE_ENV", "BASE_URL", "GA_MEASUREMENT_ID", "YA_METRIKA_ID"],
   "pipeline": {
     "build": {
       "dependsOn": ["^build"],
@@ -8,6 +12,9 @@
     },
     "lint": {
       "dependsOn": ["^lint"]
+    },
+    "clean": {
+      "dependsOn": ["^clean"]
     },
     "dev": {
       "cache": false,
