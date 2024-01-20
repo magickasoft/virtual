@@ -4,7 +4,7 @@
     "signature": true
   },
   "globalDependencies": ["**/.env.*local"],
-  "globalEnv": ["NODE_ENV", "BASE_URL", "GA_MEASUREMENT_ID", "YA_METRIKA_ID"],
+  "globalEnv": ["NODE_ENV", "BASE_URL", "GA_MEASUREMENT_ID", "YA_METRIKA_ID", "ANALYZE"],
   "pipeline": {
     "build": {
       "dependsOn": ["^build"],
