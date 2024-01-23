@@ -66,9 +66,7 @@ export default function Page(): JSX.Element {
       {/* <Button appName="web" className={styles.button}>
         Click me!
       </Button> */}
-      <Button variant="outlined">
-        Click me!
-      </Button>
+      <Button variant="outlined">Click me!</Button>
 
       <div className={styles.hero}>
         <div className={styles.heroContent}>
