@@ -880,9 +880,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@mui/material-nextjs@npm:^5.15.5":
-  version: 5.15.5
-  resolution: "@mui/material-nextjs@npm:5.15.5"
+"@mui/material-nextjs@npm:^5.15.6":
+  version: 5.15.6
+  resolution: "@mui/material-nextjs@npm:5.15.6"
   peerDependencies:
     "@emotion/cache": ^11.11.0
     "@emotion/server": ^11.11.0
@@ -897,7 +897,7 @@ __metadata:
       optional: true
     "@types/react":
       optional: true
-  checksum: e13bb1a0a9896d0837a537c0e42276c2c0ea34817ee23640404480fd931ef2afd9b0171ced4c89f2a972ccafadd75c133b415d6d5b49c21d434ad7b55c824754
+  checksum: 3251a8162fa04ade22cabf423284eacb5a829e4cd31589615472a2cd3fa2d06836c5b5eb9e2f0b0af6ff86cba02ce69d42b9743fdc68d8f21721a79d0a70c134
   languageName: node
   linkType: hard
 
@@ -2888,7 +2888,7 @@ __metadata:
     "@emotion/react": "npm:^11.11.3"
     "@emotion/styled": "npm:^11.11.0"
     "@mui/material": "npm:^5.15.6"
-    "@mui/material-nextjs": "npm:^5.15.5"
+    "@mui/material-nextjs": "npm:^5.15.6"
     "@next/bundle-analyzer": "npm:^14.1.0"
     "@next/eslint-plugin-next": "npm:^14.1.0"
     "@repo/eslint-config": "npm:*"
@@ -7375,7 +7375,7 @@ __metadata:
   dependencies:
     "@emotion/cache": "npm:^11.11.0"
     "@emotion/react": "npm:^11.11.3"
-    "@mui/material-nextjs": "npm:^5.15.5"
+    "@mui/material-nextjs": "npm:^5.15.6"
     "@next/bundle-analyzer": "npm:^14.1.0"
     "@next/eslint-plugin-next": "npm:^14.1.0"
     "@repo/eslint-config": "npm:*"
