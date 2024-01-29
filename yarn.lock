@@ -300,12 +300,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@commitlint/config-conventional@npm:^18.4.4":
-  version: 18.4.4
-  resolution: "@commitlint/config-conventional@npm:18.4.4"
+"@commitlint/config-conventional@npm:^18.6.0":
+  version: 18.6.0
+  resolution: "@commitlint/config-conventional@npm:18.6.0"
   dependencies:
     conventional-changelog-conventionalcommits: "npm:^7.0.2"
-  checksum: d8eaf10632799e092eccf3bd7c0d294bf9ad5fd1e4a9d7932043a03623c5495db31083410279199b2f480436bebe34a311f5710e842800ff600b1e2cfdd3808e
+  checksum: 656ad2d64468da3087f46abeaf09574de7b2a649eac14f4710d06cbd3d6a6085aacb0c498a8b2ac86ca66503774344fa3b2cb2070d66eac5a3c0c5adc91e132e
   languageName: node
   linkType: hard
 
@@ -7348,7 +7348,7 @@ __metadata:
   resolution: "virtual@workspace:."
   dependencies:
     "@commitlint/cli": "npm:^18.4.4"
-    "@commitlint/config-conventional": "npm:^18.4.4"
+    "@commitlint/config-conventional": "npm:^18.6.0"
     "@commitlint/prompt-cli": "npm:^18.4.4"
     "@emotion/styled": "npm:^11.11.0"
     "@mui/material": "npm:^5.15.6"
