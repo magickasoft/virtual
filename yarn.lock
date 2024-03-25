@@ -1221,7 +1221,7 @@ __metadata:
     "@turbo/gen": "npm:^1.12.4"
     "@types/eslint": "npm:^8.56.2"
     "@types/node": "npm:^20.11.19"
-    "@types/react": "npm:^18.2.57"
+    "@types/react": "npm:^18.2.69"
     "@types/react-dom": "npm:^18.2.19"
     eslint: "npm:^8.56.0"
     react: "npm:^18.2.0"
@@ -1456,14 +1456,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/react@npm:^18.2.57":
-  version: 18.2.57
-  resolution: "@types/react@npm:18.2.57"
+"@types/react@npm:^18.2.69":
+  version: 18.2.69
+  resolution: "@types/react@npm:18.2.69"
   dependencies:
     "@types/prop-types": "npm:*"
     "@types/scheduler": "npm:*"
     csstype: "npm:^3.0.2"
-  checksum: d5ed2f04c069c591e41ef1bea5b70f89dc7a4edff2254c4df801ddaa21b43b2aa70c106c049b9b6736f98f5afe66576d0e75a9e47c7044f2660b1744ff64f535
+  checksum: 239b947ed8576a271057a6f571d0967098074b101a2bece244e88093dc8fb2f020872c463b8e78b2049334ba99158f6eef5960e51f73a389f86eee39b835d846
   languageName: node
   linkType: hard
 
@@ -2906,7 +2906,7 @@ __metadata:
     "@repo/ui": "npm:*"
     "@types/eslint": "npm:^8.56.2"
     "@types/node": "npm:^20.11.19"
-    "@types/react": "npm:^18.2.57"
+    "@types/react": "npm:^18.2.69"
     "@types/react-dom": "npm:^18.2.19"
     eslint: "npm:^8.56.0"
     next: "npm:^14.1.0"
@@ -7404,7 +7404,7 @@ __metadata:
     "@repo/ui": "npm:*"
     "@types/eslint": "npm:^8.56.2"
     "@types/node": "npm:^20.11.19"
-    "@types/react": "npm:^18.2.57"
+    "@types/react": "npm:^18.2.69"
     "@types/react-dom": "npm:^18.2.19"
     eslint: "npm:^8.56.0"
     next: "npm:^14.1.0"
